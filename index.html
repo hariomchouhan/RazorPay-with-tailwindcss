@@ -14,14 +14,14 @@
         padding-top: 12rem;
         padding-bottom: 12rem;
       }
-      .companiesList{
+      .companiesList {
         animation: 15s infinite linear moveCompany;
       }
       @keyframes moveCompany {
-        0%{
+        0% {
           top: 0;
         }
-        100%{
+        100% {
           top: -150%;
         }
       }
@@ -1288,7 +1288,9 @@
 
       <!-- join razorpay section -->
       <section class="bg-[#f5f8fe] relative pt-40 pb-12 -mt-[200px] -z-[100]">
-        <div class="w-11/12 max-w-[1080px] mx-auto relative flex flex-row justify-between">
+        <div
+          class="w-11/12 max-w-[1080px] mx-auto relative flex flex-row justify-between"
+        >
           <!-- left part -->
           <div class="flex flex-col justify-center max-w-[450px]">
             <h3 class="font-mullish font-bold text-2xl text-deepBlueHead">
@@ -1308,11 +1310,76 @@
           </div>
           <!-- right part -->
           <div class="h-[500px] w-[500px] relative overflow-y-hidden">
-            <div style="background: linear-gradient(180deg, #f4f8ff, #fff0)" class="absolute w-full h-[150px] top-0 z-50"></div>
+            <div
+              style="background: linear-gradient(180deg, #f4f8ff, #fff0)"
+              class="absolute w-full h-[150px] top-0 z-50"
+            ></div>
 
-            <img src="./Images/comanies.png" alt="" loading="lazy" class="absolute  object-cover companiesList" />
+            <img
+              src="./Images/comanies.png"
+              alt=""
+              class="absolute object-cover companiesList"
+            />
 
-            <div style="background: linear-gradient(0deg, #f4f8ff, #fff0)" class="absolute w-full h-[150px] bottom-0 z-50"></div>
+            <div
+              style="background: linear-gradient(0deg, #f4f8ff, #fff0)"
+              class="absolute w-full h-[150px] bottom-0 z-50"
+            ></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonail Section -->
+      <section class="relative">
+        <div class="w-11/12 max-w-[1300px] mx-auto relative py-20">
+          <img src="./Images/feature-section1-dottedrows.png" alt="" class="absolute w-[200px] top-[7rem] left-[4.5rem] -z-10"/>
+          <h2 class="font-mullish font-bold text-2xl text-deepBlueHead text-center">An Experience <br>People Love to Talk About</h2>
+          <div class="w-6 h-1 bg-greenLight mx-auto my-4 mb-7"></div>
+
+          <!-- left button -->
+          <button class="w-[100px] h-[100px] bg-[#f4f8ff] rounded-full absolute left-0 top-1/2 flex justify-center items-center">
+            <div class="w-[65%] h-[65%] bg-[#f4f8ff] rounded-full flex justify-center items-center mix-blend-multiply">
+              <i data-feather="chevron-left" class="stroke-[5px] w-6 h-6 md:h-10 text-gray-400"></i>
+            </div>
+          </button>
+
+          <!-- right button -->
+          <button class="w-[100px] h-[100px] bg-[#f4f8ff] rounded-full absolute right-0 top-1/2 flex justify-center items-center">
+            <div class="w-[65%] h-[65%] bg-[#f4f8ff] rounded-full flex justify-center items-center mix-blend-multiply">
+              <i data-feather="chevron-right" class="stroke-[5px] w-6 h-6 md:h-10 text-gray-400"></i>
+            </div>
+          </button>
+
+          <!-- Main content -->
+          <div class="flex flex-row max-w-[960px] items-center mx-auto my-20 justify-evenly">
+            <!-- left image -->
+            <img src="./Images/testimonial.jpg" alt="" loading="lazy" height="320px" width="320px" class="rounded-xl"/>
+            <!-- right part -->
+            <div class="max-w-[450px] flex flex-col gap-2">
+              <img src="./Images/quotes.svg" alt="" loading="lazy" width="35px" height="40px" class="-mb-2"/>
+              <p class="font-mullish text-3xl font-extralight opacity-75">Acquire Customers From New <br>Customer Segments</p>
+              <a href="#" class="text-grayText italic underline">Learn More</a>
+              <p class="font-mullish font-extrabold text-2xl">Subham Kumar</p>
+              <p class="font-mullish font-medium">Product Manager</p>
+              <img src="./Images/fake-company-logo.png" alt="" loading="lazy" width="80px" height="40px" />
+            </div>
+          </div>
+
+          <!-- 6 dot wala div -->
+          <div class="w-full flex flex-row mx-auto space-x-2 justify-center items-center">
+            <!-- dot 1 -->
+            <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
+            <!-- dot 2 -->
+            <div class="h-[10px] w-[10px] bg-lightBlue300 rounded-full"></div>
+            <!-- dot 3 -->
+            <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
+            <!-- dot 4 -->
+            <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
+            <!-- dot 5 -->
+            <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
+            <!-- dot 6 -->
+            <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
+
           </div>
         </div>
       </section>
